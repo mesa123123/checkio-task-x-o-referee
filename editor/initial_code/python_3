@@ -19,5 +19,9 @@ if __name__ == '__main__':
         "O.X",
         "XX.",
         "XOO"]) == "X", "Xs wins again"
+    assert checkio([
+        "..."
+        "XX."
+        "OOO"]) == "X", "Os wins again"
     print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
 
